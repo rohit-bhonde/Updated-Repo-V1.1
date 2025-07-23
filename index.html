@@ -984,8 +984,8 @@
                 </div>
 
                 <a href="#" class="map-link d-inline-flex align-items-center">
-                  Open Map
-                  <i class="bi bi-arrow-right ms-2"></i>
+                  <!--Open Map
+                  <i class="bi bi-arrow-right ms-2"></i>-->
                 </a>
               </div>
             </div>
@@ -1034,11 +1034,12 @@
 (function() {
   var target = document.currentScript;
   window.addEventListener('load', function() {
-    calendar.schedulingButton.load({
+   calendar.schedulingButton.load({
       url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ1i9T7OJqCX2I-X4z3VWWo7OMhXWRvmLu_NCNOqrE-9SGW1lXYZxMwlBIAZ5jVnokpXSAavz_Ai?gv=true',
       color: '#F4511E',
       label: 'Book an appointment',
       target,
+
     });
   });
 })();
